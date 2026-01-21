@@ -1,0 +1,27 @@
+SimpleJavaProject/
+└── Main.java
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Welcome to Simple Java Project!");
+
+        int number1 = 8;
+        int number2 = 4;
+
+        int sum = number1 + number2;
+        int difference = number1 - number2;
+        int product = number1 * number2;
+        int quotient = number1 / number2;
+
+        System.out.println("Number 1: " + number1);
+        System.out.println("Number 2: " + number2);
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
+
+        System.out.println("Program finished successfully.");
+    }
+}
